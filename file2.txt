@@ -1,0 +1,98 @@
+[11:01 pm, 13/01/2022] Raja: hostname
+    2  hostname -I
+    3  ifconfig
+    4  cd /
+    5  ls
+    6  ll
+    7  ls -lrth
+    8  ls
+    9  cd opt/
+   10  ls
+   11  ll
+   12  mkdir linuxpractice
+   13  ll
+   14  touch f1 f2
+   15  ll
+   16  cd linuxpractice/
+   17  ls
+   18  ll
+   19  touch l1 l2 l3
+   20  ll
+   21  pwd
+   22  ll
+   23  rm l1
+   24  ll
+   25  r -rf l2
+   26  rm -rf l2
+   27  ll
+   28  pwd
+   29  cd ../
+   30  ls
+   31  pwd
+   32  rm -rf linuxpractice
+   33  ll
+   34  mkdir linuxpractice
+   35  cd linuxpractice/
+   36  ls
+   37  ll
+   38  touch l1 l2
+   39  ll
+   40  cd ../
+   41  ll
+   42  tree
+   43  yum install tree
+   44  tree
+   45  cd ..
+   46  tree
+   47  ls
+   48  cd opt/
+   49  ll
+   50  tree
+   51  cp f1 linuxpractice/f1
+   52  tree
+   53  mv f2 linuxpractice/f…
+[11:01 pm, 13/01/2022] Raja: ========
+git clone https://github.com/saicharan417/devops.git
+cd devops
+mkdir <yourname>
+cd <yourname>
+touch urname1 urname2 
+git status 
+cd ../
+git add . -A
+git status
+git commit -m "your name commit"
+git pull --rebase 
+git push 
+=========
+[11:01 pm, 13/01/2022] Raja: 1  cd /opt/
+    2  ls
+    3  ll
+    4  mkdir linuxpractice 
+    5  ll
+    6  chmod 777 linuxpractice/
+    7  ll
+    8  cd linuxpractice/
+    9  df -h
+   10  ll
+   11  touch file1
+   12  ll
+   13  vim file1 
+   14  yum install vim -y
+   15  ll
+   16  vim file1 
+   17  cat file1 
+   18  du -sh file1 
+   19  yum install git -y
+   20  git -version'
+   21  git -version
+   22  git --version
+   23  whereis git
+   24  which git
+   25  whereis java
+   26  which java
+   27  yum install java -y
+   28  which java
+   29  whereis java
+   30  wget https://mirrors.estointernet.in/apache/tomcat/tomcat-10/v10.0.8/bin/apache-tomcat-10.0.8.tar.gz
+   31  yum install wget -y
